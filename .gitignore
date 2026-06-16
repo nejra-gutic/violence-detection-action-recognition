@@ -217,3 +217,18 @@ __marimo__/
 # Streamlit
 .streamlit/secrets.toml
 .DS_Store
+
+# ── Project specific ──────────────────────────────────────────
+# Large data files
+data/
+*.npy
+*.pkl
+
+# Model checkpoints (too large for GitHub)
+checkpoints/
+
+# MMAction2 work directories
+work_dirs/
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
