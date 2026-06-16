@@ -1,0 +1,36 @@
+# Violence Detection in Videos Using Human Action Recognition
+# Nejra Gutic & Zeynep Nur Yilmaz, ITU 2026
+#
+# Install with: pip install -r requirements.txt
+#
+# Note: mmcv installation depends on your CUDA and PyTorch version.
+# See https://mmcv.readthedocs.io/en/latest/#installation for details.
+# For Google Colab (CUDA 12, PyTorch 2.x):
+#   pip install mmcv==2.1.0 -f https://download.openmmlab.com/mmcv/dist/cu121/torch2.1/index.html
+
+# ── Deep Learning ─────────────────────────────────────────────
+torch>=2.0.0
+torchvision>=0.15.0
+
+# ── Video Processing ──────────────────────────────────────────
+opencv-python>=4.7.0
+decord>=0.6.0
+
+# ── Pose Estimation ───────────────────────────────────────────
+ultralytics>=8.0.0
+
+# ── Action Recognition (MMAction2 ecosystem) ──────────────────
+mmengine>=0.9.0
+# mmcv — install separately (version depends on CUDA/PyTorch)
+# mmaction2 — install from source: https://github.com/open-mmlab/mmaction2
+
+# ── Data & Evaluation ─────────────────────────────────────────
+numpy>=1.23.0
+scikit-learn>=1.2.0
+tqdm>=4.65.0
+
+# ── Demo Interface ────────────────────────────────────────────
+gradio>=3.50.0
+
+# ── Visualization ─────────────────────────────────────────────
+matplotlib>=3.7.0
