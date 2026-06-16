@@ -87,10 +87,15 @@ violence-detection-action-recognition/
 ├── notebooks/                        ← original Colab notebooks
 │   ├── 01_pose_extraction.ipynb
 │   ├── 02_pose_preprocessing.ipynb
-│   ├── 03_rgb_training_v2.ipynb
+│   ├── 03_rgb_training_v2.ipynb      ← v2 strategy (88% accuracy)
+│   ├── 03_rgb_v1.ipynb               ← v1 baseline (83% accuracy)
 │   ├── 04_2s-agcn_jointStream.ipynb
 │   ├── 04_2s-agcn_boneStream.ipynb
-│   └── 06_fusion_RGB+joint+bone.ipynb
+│   ├── 06_fusion_RGB + joint + bone stream.ipynb  ← main result (89.25%)
+│   ├── 06_fusion_RGB+jointStream.ipynb            ← ablation
+│   ├── 06_fusion_RGB+boneStream.ipynb             ← ablation
+│   ├── 06_fusion_joint + bone stream.ipynb        ← ablation
+│   └── evaluate_on_other_dataset.ipynb            ← RLVS zero-shot eval
 │
 ├── demo/                             ← Gradio web interface
 │   ├── gradio_demo.py
