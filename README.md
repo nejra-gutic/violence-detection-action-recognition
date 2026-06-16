@@ -175,6 +175,15 @@ python demo/gradio_demo.py
 
 ---
 
+## Test Videos
+
+For demo testing, use videos from:
+- **RWF-2000 dataset** — download from [GitHub](https://github.com/mchengny/RWF2000-Video-Database-for-Violence-Detection)
+- **RLVS dataset** — download from [Kaggle](https://www.kaggle.com/datasets/mohamedmustafa/real-life-violence-situations-dataset)
+- **Any surveillance video** — the Gradio demo accepts any .mp4 or .avi file
+
+---
+
 ## Key Design Decisions
 
 **Why late fusion?**
